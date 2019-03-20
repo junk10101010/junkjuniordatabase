@@ -1,0 +1,44 @@
+{
+  "mappings": [
+    {
+      "object_name": "Account",
+      "config": {
+        "access": "read_only",
+        "sf_notify_enabled": false,
+        "sf_polling_seconds": 600,
+        "sf_max_daily_api_calls": 30000,
+        "fields": {
+          "CreatedDate": {},
+          "Id": {},
+          "IsDeleted": {},
+          "Name": {},
+          "SystemModstamp": {},
+          "AccountNumber": {},
+          "Description": {}
+        },
+        "indexes": {
+          "Id": {
+            "unique": true
+          },
+          "SystemModstamp": {
+            "unique": false
+          }
+        }
+      }
+    }
+  ],
+  "connection": {
+    "app_name": "helloworldtwopoint0",
+    "organization_id": "00D4J000000EA7kUAG",
+    "exported_at": "2019-03-20T11:57:25.638641+00:00",
+    "features": {
+      "poll_db_no_merge": true,
+      "poll_external_ids": false,
+      "rest_count_only": false
+    },
+    "api_version": "45.0",
+    "name": "",
+    "logplex_log_enabled": false
+  },
+  "version": 1
+}
