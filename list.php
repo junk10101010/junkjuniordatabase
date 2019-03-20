@@ -1,4 +1,4 @@
-<?php include('connect.php'); ?>
+<?php?>
 <html>
     <head><title>List</title></head>
     <body>
